@@ -1,0 +1,4 @@
+tunnel () {
+    /usr/local/bin/sshuttle --dns -vr $1 0/0 >> ~/.tunnel.log 2>&1 &
+}
+
