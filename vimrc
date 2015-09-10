@@ -26,10 +26,14 @@ set expandtab
 set softtabstop=4
 set shiftround
 set autoindent
-
+set number
 
 
 "Solarized VIM color scheme
 "set background=dark
 "let g:solarized_termcolors=16
 "colorscheme solarized
+
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
